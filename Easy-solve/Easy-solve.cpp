@@ -10,7 +10,16 @@ double f2(double x) {
 	return x * x * x + 2 * x + 4;
 }
 
+//Производные функций из уравнений
+double ff1(double x) {
+	return 3 - exp(x);
+}
+double ff2(double x) {
+	return 3 * x * x + 2;
+}
+
 double (*f)(double) = f1; //указатель на функцию (из задания)
+double (*ff)(double) = f1; //указатель на её производную
 
 int main()
 {
@@ -26,7 +35,8 @@ int main()
 
 	while (mode != 'q') {
 
-		cout << "Choose method (\"a\" for half-div, \"b\" for simple iteration)\n \"q\" to quit \n";
+		cout << "Choose method (\"a\" for half-div, \"b\" for simple iteration,";
+		cout << "\"c\" for tangent, \"d\" for chord, \"q\" to quit) \n";
 		cin >> mode;
 
 		switch (mode)
@@ -49,6 +59,21 @@ int main()
 			cin >> m;
 
 			break;
+
+		case 'c':
+			//Метод касательной
+			cout << "Enter start x (like 1.5)\n";
+			cin >> xn;
+			break;
+		case 'd':
+			//Метод хорды
+			cout << "Enter a (like 0.3)\n";
+			cin >> a;
+			cout << "Enter b (like 1.8) [b > a !!!!!]\n";
+			cin >> b;
+
+			break;
+
 		default:
 
 			cout << "Error: unknown mode!";
@@ -63,8 +88,8 @@ int main()
 
 		//Выбираем функцию, с которой будем работать (по заданию)
 		switch (number) {
-			case 1: f = f1; break;
-			case 2: f = f2; break;
+		case 1: f = f1; ff = ff1; break;
+		case 2: f = f2; ff = ff2; break;
 			default: break;
 		}
 
@@ -84,6 +109,7 @@ int main()
 			cout << "success! X = " << c << "\n Iterations left:"
 				<< i << endl << endl;
 		}
+
 		//Простая итерация
 		if (mode == 'b') {
 
@@ -96,6 +122,58 @@ int main()
 			}
 			if (i == imax) cout << "Error! Too much iterations\n Try another m \n\n";
 			else cout << "success! X = " << xn << "\n Iterations left:"
+				<< i << endl << endl;
+		}
+
+		//Касательная
+		if (mode == 'c') {
+
+			double xstart = xn;
+
+			while (abs(xn - xp) > e && i < imax) {
+
+				xp = xn;
+				xn = xp - f(xp) / ff(xp);		
+
+				i++;
+			}
+			if (i == imax) {
+
+				xn - xstart; 
+				xp = 9000000000000000000000000.0; 
+				i = 0;
+
+				while (abs(xn - xp) > e && i < imax) {
+
+					xp = xn;
+					xn = xp + f(xp) / ff(xp);
+
+					i++;
+				}
+			}
+
+			if (i == imax) {
+				cout << "Error: try another start x\n";
+			}
+			else cout << "success! X = " << xn << "\n Iterations left:" << i << endl << endl;
+		}
+
+		//хорда
+		if (mode == 'd') {
+
+			double fb = f(b), fx;
+
+			do {
+				xp = a;
+				fx = f(a);
+
+				a = a - (b - a) * fx / (fb - fx);
+
+				i++;
+			} while (abs(a - xp) > e && i < imax);
+
+			if (i == imax) cout << "Error! Too much iterations\n Try other a and b \n\n";
+			else cout << "success! X = " << a << "\n Iterations left:"
 				<< i << endl << endl;
 		}
 		system("pause");
