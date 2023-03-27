@@ -212,7 +212,7 @@ namespace PR_4_Plotnikov_PR_21_102_CH_M
         //Ввод точности
         private void btnMinDelta_Click(object sender, EventArgs e)
         {
-            minDelta = int.Parse(textBoxMinDelta.Text);
+            minDelta = double.Parse(textBoxMinDelta.Text);
         }
 
         //      ]
