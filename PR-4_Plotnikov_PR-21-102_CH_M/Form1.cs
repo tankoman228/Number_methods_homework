@@ -318,6 +318,35 @@ namespace PR_4_Plotnikov_PR_21_102_CH_M
         //Метод простой итерации
         private void btnSimpleIteration_Click(object sender, EventArgs e)
         {
+
+            listBoxAnswer.Items.Add("Переставим строки:");
+
+            //Перестановка строк
+            double max = double.MinValue;
+            double tmp;
+            int max_j = 0;
+
+            for (int i = 0; i < matrixSize; i++) {
+
+                max_j = i;
+                max = double.MinValue;
+
+                for (int j = i; j < matrixSize; j++)
+                {
+                    if (A[j,i] > max) { max = A[j,i]; max_j = j; }
+                }
+
+                for (int j = 0; j < matrixSize; j++)
+                {
+                    tmp = A[i, j];
+                    A[i, j] = A[max_j, j];
+                    A[max_j,j] = tmp;
+                }
+            }
+            out_matrix(A);
+
+            listBoxAnswer.Items.Add("");
+
             double[] NX = new double[matrixSize]; //Приближение
             double delta = double.MaxValue;
 
@@ -333,7 +362,7 @@ namespace PR_4_Plotnikov_PR_21_102_CH_M
             int k = 1;
 
             //Основные вычисления
-            while (delta > 0.000001 && k < 1000)
+            while (delta > minDelta && k < 1000)
             {
 
                 delta = 0;

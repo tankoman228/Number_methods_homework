@@ -9,3 +9,14 @@ C:\Users\Admin\source\repos\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnik
 C:\Users\Admin\source\repos\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.exe
 C:\Users\Admin\source\repos\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.pdb
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\bin\Debug\PR-4_Plotnikov_PR-21-102_CH_M.exe.config
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\bin\Debug\PR-4_Plotnikov_PR-21-102_CH_M.exe
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\bin\Debug\PR-4_Plotnikov_PR-21-102_CH_M.pdb
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR_4_Plotnikov_PR_21_102_CH_M.Form1.resources
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR_4_Plotnikov_PR_21_102_CH_M.Properties.Resources.resources
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.exe
+C:\Users\Admin\Desktop\Number_methods_homework-main\Number_methods_homework-main\PR-4_Plotnikov_PR-21-102_CH_M\obj\Debug\PR-4_Plotnikov_PR-21-102_CH_M.pdb
