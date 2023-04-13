@@ -1,0 +1,19 @@
+﻿  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Подпапка или файл C:\Users\Admin\source\repos\template-sfml2.5.1-win-ping-pong1\x64\Debug Dynamic\resources уже существует.
+  C:\Users\Admin\source\repos\template-sfml2.5.1-win-ping-pong1\resources\ball.wav
+  C:\Users\Admin\source\repos\template-sfml2.5.1-win-ping-pong1\resources\sansation.ttf
+  Скопировано файлов:         2.
+  main.cpp
+c:\users\admin\source\repos\template-sfml2.5.1-win-ping-pong1\interpolations.h(60): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\admin\source\repos\template-sfml2.5.1-win-ping-pong1\interpolations.h(66): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\admin\source\repos\template-sfml2.5.1-win-ping-pong1\interpolations.h(73): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\admin\source\repos\template-sfml2.5.1-win-ping-pong1\interpolations.h(79): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\admin\source\repos\template-sfml2.5.1-win-ping-pong1\interpolations.h(101): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\admin\source\repos\template-sfml2.5.1-win-ping-pong1\interpolations.h(104): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\admin\source\repos\template-sfml2.5.1-win-ping-pong1\interpolations.h(110): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  template-sfml2.5.1-win-ping-pong1.vcxproj -> C:\Users\Admin\source\repos\template-sfml2.5.1-win-ping-pong1\x64\Debug Dynamic\template-sfml2.5.1-win-ping-pong1.exe
